@@ -9,7 +9,7 @@
         $escaped_text = escapeshellarg($text);
         // Command to send to the python file.
         //$command = "python3 /var/www/html/process.py $escaped_number $escaped_text";    
-        $command = "/usr/bin/python3 /var/www/html/process.py $escaped_number $escaped_text"; 
+        $command = "/usr/bin/python3 /var/www/html/IST105-Assignment5/process.py $escaped_number $escaped_text"; 
         //$command = "python process.py $escaped_number $escaped_text"; 
         // Execute the command and capture the output
         $output = shell_exec($command);
